@@ -14,7 +14,7 @@
 #X obj 734 503 *~;
 #X obj 735 584 *~;
 #X obj 786 538 tgl 35 0 empty empty main_on/off 17 7 0 10 -262144 -1
--1 0 1;
+-1 1 1;
 #X obj 729 632 dac~;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X array array1 259 float 3;
@@ -78,8 +78,8 @@
 #X obj 916 944 r down1;
 #X obj 193 30 cnv 15 800 200 empty empty empty 20 12 0 14 -233017 -66577
 0;
-#X obj 564 119 tgl 50 0 main main_rcv main 17 7 0 10 -204800 -1 -1
-0 1;
+#X obj 564 119 tgl 50 1 main main_rcv main 17 7 0 10 -204800 -1 -1
+1 1;
 #X obj 626 119 tgl 50 0 up05 up05_rcv up0.5 17 7 0 10 -232576 -1 -1
 0 1;
 #X obj 506 119 tgl 50 0 down05 down05_rcv down0.5 17 7 0 10 -204786
